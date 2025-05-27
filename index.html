@@ -1,259 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aseel Omar | Front End Developer</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <!-- Loading Animation -->
-    <div class="loading"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aseel Omar - Front-End Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Aseel Omar</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="menu-toggle">Menu</button>
+            </nav>
+        </div>
+    </header>
 
-    <!-- Scroll Progress Bar -->
-    <div class="scroll-progress"></div>
-
-    <!-- Navbar -->
-    <nav class="navbar">
-      <div class="container">
-        <a href="#" class="logo">
-          <span class="highlight">&lt;</span>AO<span class="highlight"
-            >/&gt;</span
-          >
-        </a>
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact" class="btn-contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-      <div class="container">
-        <div class="hero-content">
-          <div class="hero-text">
-            <h1>Hi, I'm <span class="highlight">Aseel Omar</span></h1>
-            <h2>Front End Developer</h2>
-            <p class="hero-description">
-              Front End Web developer skilled in front-end technologies with a
-              career to develop future-skilled in HTML, CSS, JavaScript, and
-              React. Successfully developed responsive web applications and
-              improved operational efficiency using problem-solving skills.Aims to leverage these skills to create innovative software components and explore new technology
-              tools in a Front-End Web Developer role.
-            </p>
-            <div class="resume-cta">
-              <div class="button-group">
-                <a href="assets/mysweresume3.pdf" class="btn" target="_blank">
-                  <i class="fas fa-eye"></i>
-                  <span>View Resume</span>
-                </a>
-                <a href="assets/mysweresume3.pdf" class="btn" download>
-                  <i class="fas fa-download"></i>
-                  <span>Download CV</span>
-                </a>
-              </div>
-            
-            <div class="hero-cta">
-              <a href="#work" class="btn">
-                <i class="fas fa-code"></i>
-                <span>View My Work</span>
-              </a>
-              <a href="#contact" class="btn">
-                <i class="fas fa-paper-plane"></i>
-                <span >Let's Talk </span>
-              </a>
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>Aseel Omar</h2>
+                <p>Front-End Developer | Building engaging and user-friendly web experiences.</p>
+                <a href="#projects" class="cta-button">View My Projects</a>
             </div>
-          </div>
-        </div>
-          <div class="hero-image-container">
-            <div class="hero-image floating">
-              <img src="assets/AseelProfile.jpeg" alt="Aseel Omar" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <!-- Work Section -->
-    <section id="work" class="work">
-      <div class="container">
-        <div class="section-header">
-          <h2>Featured Projects</h2>
-          <p>Recent works and upcoming projects</p>
-        </div>
-        <div class="projects-grid">
-          <!-- Meme Generator -->
-          <div class="project-card">
-            <div class="project-content">
-              <h3>Funny Meme Generator</h3>
-              <p>
-                Created a project using HTML, CSS, and JavaScript where users
-                can upload pictures, add top and bottom texts, and generate
-                memes instantly.
-              </p>
-              <div class="project-tech">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-              </div>
-              <div class="project-links">
-                <a
-                  href="https://github.com/aseelomar750/Meme-Generator"
-                  target="_blank"
-                >
-                  <i class="fab fa-github"></i> Code
-                </a>
-                <a
-                  href="https://aseelomar750.github.io/Meme-Generator/"
-                  target="_blank"
-                >
-                  <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
-              </div>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    A passionate and results-oriented Front-End Developer, recently graduated from a comprehensive bootcamp at Springboard (Completed: October 2024). 
+                    I am dedicated to crafting intuitive and dynamic user interfaces. With a solid foundation in modern web technologies 
+                    and a drive for continuous learning, I am eager to contribute to innovative projects and collaborate with talented teams. 
+                    My background also includes studies at Henry Ford College (Associate's Degree in Computer Science, Anticipated Graduation: 2025), which have further developed my analytical and problem-solving skills.
+                </p>
+                <p class="education-intro">Education:</p>
+                <ul>
+                    <li>Springboard - Certificate in Software Engineering (Completed: October 2024)</li>
+                    <li>Henry Ford College - Associate's Degree in Computer Science (Anticipated Graduation: 2025)</li>
+                </ul>
             </div>
-          </div>
+        </section>
 
-          <!-- Interactive Price Tracker -->
-          <div class="project-card">
-            <div class="project-content">
-              <h3>Interactive Price Tracker</h3>
-              <p>
-                Developed an interactive map to track and locate sale prices on
-                favorite consumer goods at select retail stores, improving
-                tracking responsiveness by 25%.
-              </p>
-              <div class="project-tech">
-                <span>JavaScript</span>
-                <span>ReactJS</span>
-                <span>Maps API</span>
-              </div>
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>ReactJS</li>
+                    <li>Git</li>
+                    <li>VS Code</li>
+                </ul>
             </div>
-          </div>
+        </section>
 
-          <!-- Coming Soon Project 1 -->
-          <div class="project-card coming-soon">
-            <div class="project-content">
-              <h3>E-Commerce Dashboard</h3>
-              <p>
-                A comprehensive dashboard for managing online store operations
-                with real-time analytics and inventory management.
-              </p>
-              <div class="project-tech">
-                <span>React</span>
-                <span>Node.js</span>
-                <span>MongoDB</span>
-              </div>
-              <div class="project-status">
-                <span><i class="fas fa-clock"></i> Coming Soon</span>
-              </div>
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-card-container">
+                    <article class="project-card">
+                        <img src="placeholder_jeopardy.jpg" alt="Jeopardy Game Screenshot">
+                        <div class="project-card-content">
+                            <h3>Jeopardy Game</h3>
+                            <p>Developed a web-based Jeopardy game allowing users to select categories and answer questions for points, mimicking the classic TV show format.</p>
+                            <p class="technologies">Technologies: HTML, CSS, JavaScript</p>
+                            <div class="buttons">
+                                <a href="#" class="button">Live Demo</a>
+                                <a href="#" class="button">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="placeholder_meme.jpg" alt="Meme Generator Screenshot">
+                        <div class="project-card-content">
+                            <h3>Meme Generator</h3>
+                            <p>Developed a website called Meme Generator where users can create and customize memes by adding text to images, offering a fun and interactive experience.</p>
+                            <p class="technologies">Technologies: HTML, CSS, JavaScript</p>
+                            <div class="buttons">
+                                <a href="#" class="button">Live Demo</a>
+                                <a href="#" class="button">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
             </div>
-          </div>
+        </section>
 
-          <!-- Coming Soon Project 2 -->
-          <div class="project-card coming-soon">
-            <div class="project-content">
-              <h3>Health Management App</h3>
-              <p>
-                A digital tool for seniors to manage health records and stay
-                connected with their community.
-              </p>
-              <div class="project-tech">
-                <span>React</span>
-                <span>Firebase</span>
-                <span>Material UI</span>
-              </div>
-              <div class="project-status">
-                <span><i class="fas fa-clock"></i> Coming Soon</span>
-              </div>
+        <section id="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <article class="job-entry">
+                    <h3>Front End/UI Developer Internship</h3>
+                    <p class="company-details">TechElevate | Remote, Ohio | November 2024 (current)</p>
+                    <ul>
+                        <li>Collaborate with senior developers on various client projects.</li>
+                        <li>Translate Figma designs into responsive web pages using HTML, CSS, and JavaScript.</li>
+                        <li>Participate in daily stand-ups and code reviews.</li>
+                        <li>Assist in debugging and testing new features.</li>
+                    </ul>
+                </article>
+                <article class="job-entry">
+                    <h3>Warehouse Team Member</h3>
+                    <p class="company-details">Amazon | Romulus, Michigan | August 2023 - October 2024</p>
+                    <ul>
+                        <li>Efficiently managed inventory and processed orders in a fast-paced environment.</li>
+                        <li>Collaborated with team members to meet daily targets and ensure smooth workflow.</li>
+                        <li>Adhered to strict safety and quality standards.</li>
+                    </ul>
+                </article>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="section-header">
-          <h2>About Me</h2>
-        </div>
-        <div class="about-content">
-          <div class="about-text">
-            <p>
-              I'm a Front End Developer passionate about building exceptional
-              digital experiences. With expertise in React and modern
-              JavaScript, I focus on creating efficient and user-friendly web
-              applications.
-            </p>
-            <div class="tech-stack">
-              <h3>Technologies I work with:</h3>
-              <ul class="tech-list">
-                <li>JavaScript (ES6+)</li>
-                <li>React</li>
-                <li>HTML& CSS</li>
-                <li>Git</li>
-                <li>Responsive Design</li>
-                <li>Web APIs</li>
-              </ul>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:aomar16@hawkmail.hfcc.edu">aomar16@hawkmail.hfcc.edu</a></p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/aseelomar/" target="_blank">linkedin.com/in/aseelomar/</a></p>
+                <p>GitHub: <a href="https://github.com/aseelomar750" target="_blank">github.com/aseelomar750</a></p>
+                <p>Phone: <a href="tel:3134435368">313-443-5368</a></p>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <div class="section-header">
-          <h2>Get In Touch</h2>
-          <p>I'm currently looking for new opportunities</p>
-        </div>
-        <div class="contact-content">
-          <div class="contact-links">
-            <a href="mailto:aseelomar750@gmail.com" class="contact-item">
-              <i class="fas fa-envelope"></i>
-              <span>aseelomar750@gmail.com</span>
-            </a>
-            <a
-              href="https://github.com/aseelomar750"
-              target="_blank"
-              class="contact-item"
-            >
-              <i class="fab fa-github"></i>
-              <span>GitHub</span>
-            </a>
-            <a
-            href=" https://www.linkedin.com/in/aseelomar/"
-            target="_blank"
-            class="contact-item"
-          >
-            <i class="fab fa-linkedin"></i>
-            <span>Linkedin</span>
-          </a>
-            
-            <a href="assets/mysweresume3.pdf" download class="contact-item">
-              <i class="fas fa-file-alt"></i>
-              <span>Resume</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
-      <div class="container">
-        <p>Designed & Built by Aseel Omar</p>
-        <p>&copy; 2024</p>
-      </div>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Aseel Omar. Crafted with ❤️ and Code.</p>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
-  </body>
+    <script src="script.js" defer></script>
+</body>
 </html>
